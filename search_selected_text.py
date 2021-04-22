@@ -8,3 +8,4 @@ phrase = clipboard.get_selection()
 # Remove trailing or leading white space and find if there are multiple words.
 phrase = phrase.strip()
 search_url = base + phrase
+webbrowser.open(search_url)
